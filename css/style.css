@@ -21,21 +21,21 @@ MAIN
     border: 1px solid black;
     border-radius: 20px;
 }
-#house .col .card-debug{
+#house .card-debug{
     background-color: #ba4b63;
 }
-#cake .col .card-debug{
+#cake .card-debug{
     background-color: #1ea4b6;
 }
-#circle .col .card-debug{
+#circle .card-debug{
     background-color: #140f0f;
 }
-#snes .col .card-debug{
+#snes .card-debug{
     background-color: #1c83c1;
 }
-#box .col .card-debug{
+#box .card-debug{
     background-color: #0e38b5;
 }
-#submarine .col .card-debug{
+#submarine .card-debug{
     background-color: #ccb2a3;
 }
