@@ -48,3 +48,12 @@ ABOUT
 #about{
     background-color: #1abc9c;
 }
+/* 
+FOOTER 
+*/
+#footer-light{
+    background-color: #3a546d;
+}
+#footer-dark{
+    background-color: #2c3e50;
+}
