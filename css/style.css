@@ -7,3 +7,14 @@ header{
 .container{
     color: white;
 }
+/* 
+MAIN
+*/
+main{
+    background-color: #1abc9c;
+}
+.img-debug{
+    width: 200px;
+    height: 200px;
+    background-color: #2c3e50;
+}
