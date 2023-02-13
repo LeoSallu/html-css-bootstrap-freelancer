@@ -9,7 +9,9 @@
     <!-- BOOTSTRAP  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- CSS  -->
+    <!-- CDN FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- CSS  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,16 +19,9 @@
     <!-- HEADER  -->
     <header>
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-4">
-                    <div class="badge text-wrap text-light" style="width: 6rem;">
-                        STARTING BOOTSTRAP
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="badge text-light" style="width: 6rem;">
-                        MENU
-                    </div>
+            <div class="row text-light">
+                <div class="col-md-4"><a class="text-decoration-none text-light" href="#">START BOOTSTRAP</a></div>
+                <div class="col-md-4 ms-auto"></div>
                 </div>
             </div>
         </div>
@@ -38,14 +33,14 @@
         <div id="start-bootstrap">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="img-debug mx-auto"></div>
+                    <div class="col p-5 d-flex justify-content-center">
+                        <img id="avatar" src="img/avatar.svg" alt="avatar">
                     </div>
                     <div class="row">
                         <div class="text-center text-light">
-                            <h1>TESTO PROVA</h1>
-                            <p>testo prova</p>
-                            <p>testo prova</p>
+                            <h1>START BOOTSTRAP</h1>
+                            <p id="star"><i class="fa-solid fa-star"></i></p>
+                            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                         </div>
                     </div>
                 </div>
@@ -58,27 +53,28 @@
                 <div class="col">
                     <div class="text-center">
                         <h3>PORTFOLIO</h3>
+                        <p id="star"><i class="fa-solid fa-star"></i></p>
                     </div>
                 </div>
             </div>
             <div class="row mt-4">
                 <div id="house" class="col-12 col-sm-6 col-md-4 mt-4">
-                    <div class="card-debug mx-auto"></div>
+                    <img class="img-fluid" src="img/cabin.png" alt="cabine">
                 </div>
                 <div id="cake" class="col-12 col-sm-6 col-md-4 mt-4">
-                    <div class="card-debug mx-auto"></div>
+                    <img class="img-fluid" src="img/cake.png" alt="cake">
                 </div>
                 <div id="circle" class="col-12 col-sm-6 col-md-4 mt-4">
-                    <div class="card-debug mx-auto"></div>
+                    <img class="img-fluid" src="img/circus.png" alt="circus">
                 </div>
                 <div id="snes" class="col-12 col-sm-6 col-md-4 mt-4">
-                    <div class="card-debug mx-auto"></div>
+                    <img class="img-fluid" src="img/game.png" alt="game">
                 </div>
                 <div id="box" class="col-12 col-sm-6 col-md-4 mt-4">
-                    <div class="card-debug mx-auto"></div>
+                    <img class="img-fluid" src="img/safe.png" alt="safe">
                 </div>
                 <div id="submarine" class="col-12 col-sm-6 col-md-4 mt-4 mb-5">
-                    <div class="card-debug mx-auto"></div>
+                    <img class="img-fluid" src="img/submarine.png" alt="submarine">
                 </div>
             </div>
         </div>
@@ -152,5 +148,4 @@
     </footer>
     <!--/ FOOTER -->
 </body>
-
 </html>
