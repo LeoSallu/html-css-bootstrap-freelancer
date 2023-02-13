@@ -59,8 +59,16 @@ FOOTER
 #footer-dark{
     background-color: #2c3e50;
 }
-
-
+#green{
+    color: #1abc9c;
+}
+#footer-light .row .col .text-center ul li{
+    border: 1px white solid;
+    border-radius: 100%;
+}
+#footer-light .row .col .text-center ul li i{
+color: white;
+}
 /* 
 MEDIA-QUERY 
 */
