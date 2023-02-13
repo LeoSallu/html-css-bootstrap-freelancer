@@ -20,29 +20,35 @@ MAIN
 /* 
 PORTFOLIO  
 */
-.card-debug{
-    width: 100%;
-    height: 296px;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-#house .card-debug{
+#house img{
     background-color: #ba4b63;
+    border: 1px solid #ba4b63;
+    border-radius: 20px ;
 }
-#cake .card-debug{
+#cake img{
     background-color: #1ea4b6;
+    border: 1px solid #1ea4b6;
+    border-radius: 20px ;
 }
-#circle .card-debug{
+#circle img{
     background-color: #140f0f;
+    border: 1px solid #140f0f;
+    border-radius: 20px ;
 }
-#snes .card-debug{
+#snes img{
     background-color: #1c83c1;
+    border: 1px solid #1c83c1;
+    border-radius: 20px ;
 }
-#box .card-debug{
+#box img{
     background-color: #0e38b5;
+    border: 1px solid #0e38b5;
+    border-radius: 20px ;
 }
-#submarine .card-debug{
+#submarine img{
     background-color: #ccb2a3;
+    border: 1px solid #ccb2a3;
+    border-radius: 20px ;
 }
 /* 
 ABOUT
@@ -69,6 +75,3 @@ FOOTER
 #footer-light .row .col .text-center ul li i{
 color: white;
 }
-/* 
-MEDIA-QUERY 
-*/
